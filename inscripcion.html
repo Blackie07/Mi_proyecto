@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Dia Academia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="Jpg/Logoacademibondia1.jpg" alt="Logo academia" width="150" height="auto">
+            </div> 
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Menú</a></li>
+                    <li><a href="inscripcion.html" target="_blank">Inscripciones</a></li>
+                    <li><a href="precios.html" target="_blank">Precios</a></li>
+                    <li><a href="exponentes.html" target="_blank">Exponentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="registration">
+            <h1>Inscripción</h1>
+            <form action="#" method="post">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ingrese su número de teléfono">
+
+                <label for="hours">Cantidad de horas</label>
+                <input type="number" id="hours" name="hours" placeholder="Ingrese la cantidad de horas" min="1" required>
+
+                <label for="genres">Géneros musicales</label>
+                <select id="genres" name="genres[]" multiple required>
+                    <option value="jazz">Jazz</option>
+                    <option value="salsa">Salsa</option>
+                    <option value="tango">Tango</option>
+                    <option value="clasica">Música Clásica</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="follow-us">
+            <h1>Síguenos</h1>
+            <p>
+                Línea Telefónica: 1100-11111<br>
+                Dirección: Calle 15 sur #45-32<br>
+                Correo Electrónico: bondiacademy@school.co
+            </p>
+            <div class="social-icons">
+                <i class="fa-solid fa-users"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;2025 Bon Dia Academia. Todos los derechos reservados.<br>
+            Alexander Fonnegra Osorio
+        </p>
+    </footer>
+</body>
+</html>
