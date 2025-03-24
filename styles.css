@@ -333,3 +333,38 @@ footer {
     color: white;
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .genre {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .instrument {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: large;
+    }
+
+    .navigation {
+        font-size: medium;
+    }
+
+    .navigation ul {
+        gap: 5px;
+    }
+
+    .welcome, .genres, .genre {
+        padding: 10px;
+        margin: 10px;
+    }
+}
