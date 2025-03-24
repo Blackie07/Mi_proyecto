@@ -392,8 +392,13 @@ footer {
         padding: 10px;
         margin: 10px;
     }
+    .genre img{
+        flex: 1 1 100%;
+        text-align: center;
+    }
     button {
         width: 100%;
         padding: 12px;
     }
+
 }
