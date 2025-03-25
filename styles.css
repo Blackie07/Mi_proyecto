@@ -137,15 +137,15 @@ img{
 
 .genre img {
     display: block;
-    width: 350px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    background-color: #1abc9c; /* Verde relajante y profesional */
+    background-color: #1abc9c; 
     color: white;
     border: none;
     padding: 10px 20px;
